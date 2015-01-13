@@ -1,0 +1,20 @@
+{
+    "name": "ferhatelmas/hello-world",
+    "description": "My first composer project",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "ferhat elmas",
+            "email": "elmas.ferhat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
